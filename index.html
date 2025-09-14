@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Onest:wght@100..900&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+      <div class="left">
+        <a href="/">Nirosha Rani</a>
+      </div> 
+
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+
+        <a href="https://linkedin.com/in/nirosha-rani-747512294" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>   
+             <span>linkedin</span>
+        </a>
+
+        <a href="mailto:nirosharani14@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+        <!--section1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h3>Hi</h3>
+                <h2>I'm <span style="color: orangered;">Nirosha</span></h2>
+                <p>
+                    I'm a final-year student currently exploring the world of web development, programming, and problem-solving. I enjoy experimenting with different technologies and working on projects that challenge my creativity and logical thinking.
+                </p>      
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#portfolio">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects & Achievements</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="newphoto1.webp" alt="Portrait of Nirosha Rani, aspiring web developer">
+            </div>
+            </section>
+
+            <!--section2: skills-->
+            <!--section2: skills-->
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>
+                I’m actively learning and practicing these technologies to strengthen my skills 
+                and build creative projects.
+            </p>
+
+            <div class="skills-container">
+                <div class="skill frontend">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span>Frontend</span>
+                </div>
+                <div class="skill backend">
+                    <i class="fa-solid fa-server"></i>
+                    <span>Backend</span>
+                </div>
+                <div class="skill python">
+                    <i class="fa-brands fa-python"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill java">
+                    <i class="fa-brands fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill figma">
+                    <i class="fa-brands fa-figma"></i>
+                    <span>Figma</span>
+                </div>
+                <div class="skill excel">
+                    <i class="fa-solid fa-file-excel"></i>
+                    <span>Excel</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="portfolio">
+            <div class="container">
+
+    <!-- Section Heading -->
+                <h2 class="section-title">My Projects & Achievements</h2>
+
+                <div class="grid">
+
+      <!-- Projects Section -->
+                    <div class="projects">
+                    <h3> Projects</h3>
+
+                        <div class="project-card">
+                            <h4>Quick Dine – IoT-based Cafeteria Seat Availability System</h4>
+                            <p>A real-time seat monitoring solution using ESP32, IR sensors, and Firebase for college cafeterias.</p>
+                            <p><strong>Tech Stack:</strong> ESP32, IR Sensors, Firebase, IoT</p>
+                        </div>
+
+
+                        <div class="project-card">
+                            <h4>Portfolio Website</h4>
+                            <p>Responsive personal portfolio website to showcase my skills, projects, and achievements.</p>
+                            <p><strong>Tech Stack:</strong> HTML, CSS</p>
+                        </div>
+
+                    </div>
+
+      <!-- Achievements Section -->
+                    <div class="achievements">
+                        <h3> Achievements & Certifications</h3>
+
+                        <ul>
+                            <li>Senior Bharatanatyam Certification — Karnataka State Board of Music and Dance</li>
+                            <li>Junior Bharatanatyam Certification — Karnataka State Board of Music and Dance</li>
+                            <li>NCC ‘A’ Certificate — National Cadet Corps (1 KAR Girls Battalion)</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title"> Contact Me</h2>
+
+                <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
